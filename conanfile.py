@@ -3,8 +3,8 @@ import os
 
 class InjeqtConan(ConanFile):
     name = "injeqt"
-    version = "0.1"
-    description = "Dependency injection framework for Qt."
+    version = "1.2.0"
+    description = "Dependency injection framework for Qt from https://github.com/vogel/injeqt"
     license = "GNU Lesser General Public License v2.1 (LGPL-2.1)"
     url = "https://github.com/borco/conan-injeqt"
     settings = "os", "compiler", "build_type", "arch"
